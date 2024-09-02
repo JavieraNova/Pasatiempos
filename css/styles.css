@@ -1,0 +1,97 @@
+/* dojo.css */
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tipografía base */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor general */
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Encabezado */
+header {
+    background-color: #87CEEB;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 75px;
+}
+
+/* Estilo de botón */
+.btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Filas y columnas flexibles */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col {
+    flex: 1;
+    padding: 15px;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #87CEEB;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #87CEEB;
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #87CEEB;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
